@@ -1,5 +1,5 @@
 import React from "react";
-import ProfessionalList from "./ProfessionalsList";
+import ProfessionalList from "./ProfessionalList";
 import ServiceButtons from "./ServiceButtons";
 
 function App() {
@@ -10,7 +10,6 @@ function App() {
       padding: "0",
       margin: "0"
     }}>
-      {/* Header */}
       <header style={{
         backgroundColor: "#2c3e50",
         color: "white",
@@ -35,7 +34,6 @@ function App() {
         </p>
       </header>
 
-      {/* Main Content */}
       <div style={{
         display: "flex",
         gap: "20px",
@@ -46,20 +44,19 @@ function App() {
         flexWrap: "wrap"
       }}>
         <ProfessionalList
-          file="/ca_standardized.csv"
+          file="/ca_profiles_all.csv"
           title="🇮🇳 CA/CS/Lawyers in India"
           bgColor="#e8f5e8"
           accentColor="#27ae60"
         />
         <ProfessionalList
-          file="/cpa_standardized.csv"
+          file="/icici_cs_list_final.csv"
           title="🌍 CPAs/Professionals Overseas"
           bgColor="#e3f2fd"
           accentColor="#3498db"
         />
       </div>
 
-      {/* Service Buttons Panel */}
       <ServiceButtons />
     </div>
   );
