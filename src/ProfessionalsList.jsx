@@ -35,7 +35,7 @@ function ProfessionalList({ file, title, bgColor, accentColor }) {
         // Fallback to original files if standardized ones don't exist
         const fallbackPath = file.includes('ca_standardized') 
           ? `${process.env.PUBLIC_URL}/ca_profiles_all.csv`
-          : `${process.env.PUBLIC_URL}/icici_cs_list_final.xlsx`;
+          : `${process.env.PUBLIC_URL}/icici_cs_list_final.csv`;
         
         if (file.includes('.csv')) {
           fetch(fallbackPath)
