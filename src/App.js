@@ -1,5 +1,5 @@
 import React from "react";
-import ProfessionalList from "./ProfessionalList";
+import ProfessionalList from "./ProfessionalsList";
 import ServiceButtons from "./ServiceButtons";
 
 function App() {
