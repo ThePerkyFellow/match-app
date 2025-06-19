@@ -119,15 +119,6 @@ logs
 ehthumbs.db
 Thumbs.db
 
-# Sensitive data files (CSV/Excel with real professional data)
-*.csv
-*.xlsx
-*.xls
-ca_profiles_all.csv
-ca_standardized.csv
-cpa_standardized.csv
-icici_cs_list_final.xlsx
-
 # Python files (if using data preprocessing scripts)
 __pycache__/
 *.py[cod]
