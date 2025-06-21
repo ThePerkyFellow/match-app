@@ -51,7 +51,7 @@ npm install
 npm start
 ```
 
-The application will be available at `https://match-app-sooty.vercel.app/`
+The application will be available at `http://localhost:3000`
 
 ## 📁 Project Structure
 
