@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/ThePerkyFellow/match-app/static/js/main.a79da0c2.js",
+    "main.js": "/ThePerkyFellow/match-app/static/js/main.2cbf2b10.js",
     "index.html": "/ThePerkyFellow/match-app/index.html",
-    "main.a79da0c2.js.map": "/ThePerkyFellow/match-app/static/js/main.a79da0c2.js.map"
+    "main.2cbf2b10.js.map": "/ThePerkyFellow/match-app/static/js/main.2cbf2b10.js.map"
   },
   "entrypoints": [
-    "static/js/main.a79da0c2.js"
+    "static/js/main.2cbf2b10.js"
   ]
 }
